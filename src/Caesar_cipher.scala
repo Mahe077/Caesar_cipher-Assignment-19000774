@@ -9,7 +9,6 @@ object Caesar_cipher extends App{
   
 //  Inputs
   val file= "src/sample.txt"
-  val charcter = 'e'
   val key = 3
 
   val source = fromFile(file,"UTF-8").getLines.mkString.toUpperCase
